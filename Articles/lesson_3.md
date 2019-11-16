@@ -53,3 +53,43 @@ Loop
 Exit When x > y;
 End Loop;
 ```
+
+### Предопределенный цикл (FOR LOOP)
+
+_Синтаксис:_
+
+```
+FOR v_Index IN <Min value> .. <Max value>
+LOOP
+ -- Do something here
+END LOOP;
+```
+
+Пример:
+
+```
+x := 0;
+For v_Idx In 1 .. 100 Loop
+ x := x + 1;
+End Loop;
+```
+
+### Цикл while (WHILE)
+
+```
+WHILE <Condition> LOOP
+ -- Do something here
+END LOOP;
+```
+
+Пример:
+
+```
+v_Text Varchar2(100);
+...
+ 
+While Length(v_Text) < 50 Loop
+   v_Text := v_Text || '00';
+End Loop;
+```
+
