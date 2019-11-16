@@ -53,8 +53,7 @@ Declare
      Emp_First_Name Employee.First_Name%Type
     ,Emp_Last_Name  Employee.Last_Name%Type
     ,Emp_Full_Name  Varchar2(50));
- ----
- -- Define a variable of type Emp_Name_Type
+
  v_Emp Emp_Name_Type;
 ```
 
