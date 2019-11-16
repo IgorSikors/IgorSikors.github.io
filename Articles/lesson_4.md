@@ -44,6 +44,7 @@ And    (Emp.Assigned_Branch_Id = p_Branch_Id Or p_Branch_Id Is Null);
 ```
 
 Есть 2 вида курсора (Cursor):
+
 ***Явный курсор***
 
 ***Неявный курсор***.
