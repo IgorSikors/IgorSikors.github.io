@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Добро пожаловать на обучение по языку программирования PL/SQL
 
 You can use the [editor on GitHub](https://github.com/IgorSikors/Oracle/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
