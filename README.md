@@ -1,6 +1,6 @@
 ## Добро пожаловать на обучение по языку программирования PL/SQL
 
-[Урок 1](Oracle/Articles/lesson_1.md)
+[Урок 1](Articles/lesson_1.md)
 
 You can use the [editor on GitHub](https://github.com/IgorSikors/Oracle/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
