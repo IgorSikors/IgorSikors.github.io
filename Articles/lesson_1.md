@@ -39,9 +39,23 @@ TYPE Type_Record_Name IS
             Col2  Datatype2  [NOT NULL{:=|DEFAULT} expression],
              ...
             );
- 
 -- После определения типа записи объявляется переменная типа этой записи
 variable_name  Type_Record_Name;
+```
+
+Пример:
+
+```
+Declare
+ v_Emp_Id Employee.Emp_Id%Type := 1;
+ -- Define Record data type has 3 column.
+ Type Emp_Name_Type Is Record(
+     Emp_First_Name Employee.First_Name%Type
+    ,Emp_Last_Name  Employee.Last_Name%Type
+    ,Emp_Full_Name  Varchar2(50));
+ ----
+ -- Define a variable of type Emp_Name_Type
+ v_Emp Emp_Name_Type;
 ```
 
 ## Объявление переменных в PL/SQL
