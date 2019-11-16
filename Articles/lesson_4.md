@@ -34,11 +34,25 @@ Cursor Emp_Cur(p_Dept_Id   Number
         ,p_Branch_Id Number)
 Is
 Select Emp.Emp_Id
-   ,Emp.First_Name
-   ,Emp.Last_Name
-   ,Emp.Assigned_Branch_Id
-   ,Emp.Dept_Id
+      ,Emp.First_Name
+      ,Emp.Last_Name
+      ,Emp.Assigned_Branch_Id
+      ,Emp.Dept_Id
 From   Employee Emp
 Where  (Emp.Dept_Id = p_Dept_Id Or p_Dept_Id Is Null)
 And    (Emp.Assigned_Branch_Id = p_Branch_Id Or p_Branch_Id Is Null);
 ```
+
+Есть 2 вида курсора (Cursor):
+***Явный курсор***
+***Неявный курсор***.
+Понятие явный означает, что при использовании нужно написать команду открытия курсора (open), и написать команду закрыть курсор после использования. 
+
+При каждом выполнении команды DML (INSERT, UPDATE, MERGE или delete) или команды SELECT INTO, возвращающей строку из базы данных в структуру данных программы, PL/SQL автоматически создает для нее курсор. Курсор этого типа называется неявным, поскольку Oracle автоматически выполняет многие связанные с ним операции, такие как выделение курсора, его открытие, выборку строк и т.д.
+
+Атрибуты курсора:
+
+_%isopen_ 	возвращает значение True если cursor открыт
+_%notfound_ 	возвращает значение true если отстутствует следующая строка
+_%found_ 	возвращает значение true если присутствует следующая строка.
+_%rowcount_	возвращает число просмотренных row.
