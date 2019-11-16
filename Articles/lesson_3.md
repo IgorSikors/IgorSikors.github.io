@@ -60,6 +60,18 @@ _condition_1 .. condition_n_ должны быть одного типа. Усл
 _result_1 .. result_n_ все должны быть одного типа данных. 
 Это значение возвращается единожды, когда условие примет TRUE (истина).
 
+Пример:
+
+```
+SELECT table_name,
+CASE owner
+  WHEN 'SYS' THEN 'The owner is SYS'
+  WHEN 'SYSTEM' THEN 'The owner is SYSTEM'
+  ELSE 'The owner is another value'
+END
+FROM all_tables;
+```
+
 ### Не предопределенный цикл (LOOP)
 
 _Синтаксис:_
