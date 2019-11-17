@@ -142,6 +142,8 @@ company_name := NULL;
 company_name VARCHAR2(60) NOT NULL; -- NOT NULL требует исходного значения!
 ```
 
+## Циклы
+
 ### Не предопределенный цикл (LOOP)
 
 _Синтаксис:_
