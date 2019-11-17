@@ -12,6 +12,6 @@ PL/SQL (Procedural Language / Structured Query Language) — язык прогр
 
 [Урок 5 - Коллекции](Articles/lesson_5.md)
 
-[Урок 6 - Процедуры и функции в Oracle](Articles/lesson_5.md)
+[Урок 6 - Процедуры и функции в Oracle](Articles/lesson_6.md)
 
-[Урок 7 - Пакеты](Articles/lesson_5.md)
+[Урок 7 - Пакеты](Articles/lesson_7.md)
