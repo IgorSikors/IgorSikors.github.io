@@ -17,7 +17,34 @@ CREATE TABLE table_name
 Параметры или аргументы:
 ```
 table_name - имя таблицы, которую вы хотите создать.
-column1, column2, … column_n - столбцы, которые вы создаете в таблице. Каждый столбец должен иметь тип данных. Столбец должен быть определен либо как «NULL» либо «NOT NULL», если это значение не указывается, то по умолчанию устанавливается «NULL».
+column1, column2, … column_n - столбцы, которые вы создаете в таблице. 
+Каждый столбец должен иметь тип данных. Столбец должен быть определен либо как «NULL» либо «NOT NULL», если это значение не указывается, то по умолчанию устанавливается «NULL».
+```
+Пример:
+```
+Рассмотрим на примере как использовать в Oracle/PLSQL CREATE TABLE.
+
+Oracle PL/SQL
+CREATE TABLE customers
+( customer_id number(10) NOT NULL,
+  customer_name varchar2(50) NOT NULL,
+  city varchar2(50));
+```
+В этом примере CREATE TABLE создает таблицу customers, которая имеет 3 столбца.
+
+- Первый столбец _customer_id_, который создается с числовым типом данных (максимум 10 цифр в длину) 
+и не может принимать значение NULL.
+- Второй столбец _customer_name_ с типом данных varchar2 (максимум 50 символов), также не может принимать значение NULL.
+- Третий столбец _city_, у которого тип данных varchar2, он может принимать значение NULL.
+
+Теперь единственная проблема в Oracle/PLSQL CREATE TABLE, что не определен primary key (первичный ключ) для таблицы customers. Мы изменим содержание предложения CREATE TABLE и определим customer_id в качестве первичного ключа следующим образом:
+```
+Oracle PL/SQL
+CREATE TABLE customers
+( customer_id number(10) NOT NULL,
+  customer_name varchar2(50) NOT NULL,
+  city varchar2(50),
+  CONSTRAINT customers_pk PRIMARY KEY (customer_id));
 ```
 
 ### Команда If-elsif-else
