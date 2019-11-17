@@ -4,4 +4,14 @@ PL/SQL (Procedural Language / Structured Query Language) — язык прогр
 
 [Урок 1 - Типы данных в Oracle](Articles/lesson_1.md)
 
-[Урок 2 - Базовая структура кода](Articles/lesson_1.md)
+[Урок 2 - Базовая структура кода](Articles/lesson_2.md)
+
+[Урок 3 - Базовые команды PL/SQL](Articles/lesson_3.md)
+
+[Урок 4 - Курсоры](Articles/lesson_4.md)
+
+[Урок 5 - Коллекции](Articles/lesson_5.md)
+
+[Урок 6 - Процедуры и функции в Oracle](Articles/lesson_5.md)
+
+[Урок 7 - Пакеты](Articles/lesson_5.md)
