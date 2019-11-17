@@ -12,7 +12,12 @@ CREATE TABLE table_name
 (column1 datatype [ NULL | NOT NULL ],
  column2 datatype [ NULL | NOT NULL ],
   …
-  column_n datatype [ NULL | NOT NULL ]);
+ column_n datatype [ NULL | NOT NULL ]);
+```
+Параметры или аргументы:
+```
+table_name - имя таблицы, которую вы хотите создать.
+column1, column2, … column_n - столбцы, которые вы создаете в таблице. Каждый столбец должен иметь тип данных. Столбец должен быть определен либо как «NULL» либо «NOT NULL», если это значение не указывается, то по умолчанию устанавливается «NULL».
 ```
 
 ### Команда If-elsif-else
