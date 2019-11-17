@@ -2,6 +2,19 @@
 
 В данном уроке приведен обзор команд PL/SQL. Вы поймете больше через примеры в следующих частях.
 
+### CREATE TABLE
+
+Оператор Oracle/PLSQL CREATE TABLE позволяет создавать и определять таблицу.
+
+Синтаксис:
+```
+CREATE TABLE table_name
+(column1 datatype [ NULL | NOT NULL ],
+ column2 datatype [ NULL | NOT NULL ],
+  …
+  column_n datatype [ NULL | NOT NULL ]);
+```
+
 ### Команда If-elsif-else
 
 _Синтаксис:_
