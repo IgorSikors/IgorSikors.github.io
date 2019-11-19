@@ -1,9 +1,9 @@
-Создать следующие таблицы:
+_Создать следующие таблицы:_
 
-*CREATE TABLE DEPT
+CREATE TABLE DEPT
        (DEPTNO NUMBER(2) CONSTRAINT PK_DEPT PRIMARY KEY,
     DNAME VARCHAR2(14) ,
-    LOC VARCHAR2(13) ) ;*
+    LOC VARCHAR2(13) ) ;
  
 *CREATE TABLE EMP
        (EMPNO NUMBER(4) CONSTRAINT PK_EMP PRIMARY KEY,
