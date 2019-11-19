@@ -16,4 +16,4 @@ PL/SQL (Procedural Language / Structured Query Language) — язык прогр
 
 [Урок 7 - Пакеты](Articles/lesson_7.md)
 
-[Тест]https://docs.google.com/forms/d/e/1FAIpQLSdrYM-WmhFIaXIYNoQGB4vg0Z37FNJYQEvpNQe1yB3CQ22XWQ/viewform
+[Тест](https://docs.google.com/forms/d/e/1FAIpQLSdrYM-WmhFIaXIYNoQGB4vg0Z37FNJYQEvpNQe1yB3CQ22XWQ/viewform)
