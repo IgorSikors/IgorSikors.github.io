@@ -37,4 +37,4 @@ PL/SQL (Procedural Language / Structured Query Language) — язык прогр
 
 [Задания](Articles/tasks.md)
 
-Список использованной литературы(Articles/list_sources.md)
+[Список использованной литературы](Articles/list_sources.md)
